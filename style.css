@@ -1,0 +1,283 @@
+body {
+font-family:rockwell;
+background: #808080;
+}
+
+nav {
+display: block;
+border: 2px;
+border-radius: 5px;
+background: #CD5C5C;
+margin: 2px;
+text-align: center;
+}
+
+nav a {
+font-family: Bonjour;
+display: inline-block;
+border: 2px Solid #fff;
+border-radius: 5px;
+padding: 10px;
+margin-right: 20px;
+margin-bottom: 5px;
+color: #fff;
+text-decoration: none;
+background: #800000;
+}
+
+nav a:hover{
+color: #343837;
+background: #fa8072;
+border: 2px solid #343837;
+}
+
+h1 {
+font-family: Bonjour;
+color: #C0C0C0;
+background: linear-gradient(#800000, #CD5C5C);
+margin-bottom: 1px;
+padding: 3px;
+font-size: 40px;
+text-align: center;
+}
+
+h2 {
+font-family: Bonjour;
+font-size: 4vh;
+color: #800000;
+background: #808080;
+margin-top: 1px;
+margin-bottom: 1px;
+padding: 10px;
+text-align: center;
+}
+
+h3 {
+color: #000;
+margin: 10px;
+background: #808080;
+padding: 10px;
+text-align: right;
+}
+
+img{
+border: 1px solid white;
+}
+
+marquee {
+font-family: Bonjour;
+font-size: 3vh;
+color: #fff;
+margin-top: 1px;
+background: #808080;
+padding: 5px;
+}
+
+.informasi{
+text-align: center;
+color: white;
+}
+
+.Tersedia {
+color: #fff;
+}
+
+.deskripsi{
+text-align: center;
+font-family: Rockwell;
+font-size: 2vh;
+color: #fff;
+border: 2px solid white;
+background: #808080;
+margin: 3px;
+padding: 10px;
+}
+
+
+.instagram{
+color:white;
+border : 1px;
+padding: 10px;
+border-radius : 5px ;
+margin: 4px ;
+background : #C13584;
+}
+
+.instagram a{
+text-decoration: none;
+}
+
+.instagram a:hover{
+ color: blue;
+ }
+
+ .WhatApps {
+ color: white;
+ border : 1px;
+ padding: 10px;
+ border-radius : 5px;
+ margin: 4px;
+ background : #25D366;
+ }
+
+.WhatApps a{
+text-decoration: none;
+color: white;
+}
+
+.WhatApps a:hover{
+  color : blue;
+  }
+
+.Email{
+  border : 1px;
+  padding: 10px;
+  border-radius : 5px ;
+  margin: 4px ;
+  background : #00BFFF;
+  text-decoration: none;
+  color: white;
+  }
+
+.Email a{
+  color: white;
+  text-decoration: none;
+  }
+
+.Youtube {
+  padding: 10px;
+  border-radius : 5px ;
+  margin: 4px ;
+  background : #C4302B;
+  text-decoration: none;
+  color: #FFF;
+  border : 1px;
+}
+
+.Youtube a{
+ color: blue;
+  text-decoration: none;
+}
+
+aside {
+justify-content: center;
+}
+
+aside a:hover{
+color: darkblue;
+}
+
+.foto{
+margin: 1px;
+display: flex;
+padding: 5px;
+background-image: linear-gradient(90deg, #B92B27, #1565C0);
+}
+
+
+.background {
+background: url(img/Softcase.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 30vh;
+width: 30vh;
+display: flex;
+border: 1px;
+border-radius: 5px;
+margin: 5vh;
+box-shadow: -36px -36px 7px 0px rgba(0,0,0,0.305);
+}
+
+.kartu {
+background: url(img/kartu.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 30vh;
+width: 30vh;
+display: flex;
+border: 1px;
+border-radius: 5px;
+margin: 5vh;
+box-shadow: -36px -36px 7px 0px rgba(0,0,0,0.305);
+}
+
+.Charger {
+background: url(img/charger.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 30vh;
+width: 30vh;
+display: flex;
+border: 1px;
+border-radius: 5px;
+margin: 5vh;
+box-shadow: -36px -36px 7px 0px rgba(0,0,0,0.305);
+}
+
+.kabeldata{
+background: url(img/kabeldata.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 30vh;
+width: 30vh;
+display: flex;
+border: 1px;
+border-radius: 5px;
+margin: 5vh;
+box-shadow: -36px -36px 7px 0px rgba(0,0,0,0.305);
+}
+
+.Speaker{
+background: url(img/Speaker.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 30vh;
+width: 30vh;
+display: flex;
+border: 1px;
+border-radius: 5px;
+margin: 5vh;
+box-shadow: -36px -36px 7px 0px rgba(0,0,0,0.305);
+}
+
+footer {
+background: linear-gradient(#CD5C5C, #800000);
+text-align: center;
+margin-top: 15px;
+color: #FFFFFF;
+padding: 8px
+}
+
+input, textarea {
+width: 400px;
+margin-top: 10px;
+margin-bottom: 30px;
+padding: 10px;
+font-size: 10px
+}
+
+.Contact-submit {
+background-color: #db1514;
+color: #fff;
+cursor: pointer;
+}
+
+iframe{
+border-radius:10%;
+justify-content: right;
+border:1px dotted white;
+}
+
+
+.formulir {
+display: grid;
+justify-content: center;
+
+}
+
+form {
+margin: 5px;
+box-shadow: 46px 41px 15px 14px rgba(5,0,0,0.2);
+padding: 5px;
+background: radial-gradient(white, #800000);
+}
